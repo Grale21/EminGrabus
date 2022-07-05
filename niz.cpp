@@ -99,12 +99,15 @@ int main () {
 	cout <<"Unesite broj elemenata drugog niza!\n"; 
 	cin>>c; 
 	UnosNiza(d,c); 
-	cout <<"\n Clanovi prvog niza su: "; 
+	cout <<"\n Clanovi prvog niza su:{ "; 
 	IspisNiza(a,b); 
-	cout <<"\n Clanovi drugog niza su: "; 
+	cout<< "}";
+	cout <<"\n Clanovi drugog niza su:{ "; 
 	IspisNiza(d,c); 
+	cout<< "}";
 	cout<<"\n Niz 1 poslije zamijene: "; 
 	zamijeni(a,b); 
+	
 	cout<<"\n Niz 2 poslije zamijene: "; 
 	zamijeni(d,c); 
 	cout<<"\n Niz 1 poslije sortiranja: "; 
